@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf8" />
 
-    <title>multiplication</title>
+<head>
+  <meta charset="utf8" />
 
-    <link href="./styles.css" rel="stylesheet" />
-  </head>
+  <title>multiplication</title>
 
-  <body>
+  <link href="./styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <form id="calculator">
     <section>
       <input id="left" type="number" value="0" />
       X
       <input id="right" type="number" value="0" /> <br />
 
       <button id="do-math">equals</button>
+
 
       <br />
 
@@ -26,8 +29,10 @@
       <text>expected output:</text>
       <p id="secret-solution"></p>
     </section>
+  </form>
 
-    <script src="./script.js" type="module"></script>
-    <script src="./script.re.js" type="module"></script>
-  </body>
+  <script src="./script.js" type="module"></script>
+  <script src="./script.re.js" type="module"></script>
+</body>
+
 </html>
