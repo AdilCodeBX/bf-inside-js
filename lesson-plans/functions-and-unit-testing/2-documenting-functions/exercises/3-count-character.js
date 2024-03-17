@@ -3,7 +3,11 @@
 console.log('-- begin --');
 
 /**
+ *this check if check how many time my character is present in my text
  *
+ * @param  {string} text
+ * @param {string} toCount
+ * @return will renurn a number (count)
  */
 const countCharacter = (text, toCount) => {
   if (toCount.length !== 1) {
