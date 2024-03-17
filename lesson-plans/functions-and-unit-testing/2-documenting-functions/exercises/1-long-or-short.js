@@ -3,11 +3,11 @@
 console.log('-- begin --');
 
 /**
- * _
+ * This will check if the text length are short or long compared to cutoff (number)
  *
- * @_ {_} _ - _
- * @_ {_} _ - _
- * @_ {_} _
+ * @param {string} text - _
+ * @param {number} cutoff
+ * @result {string} return "short" or "long"
  */
 const longOrShort = (text, cutoff) => {
   if (text.length < cutoff) {

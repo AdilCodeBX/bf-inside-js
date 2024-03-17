@@ -5,9 +5,15 @@
  *
  * @param {string} text - The string to repeat.
  * @param {number} repeats - The number of times to repeat.
- * @returns {string} The repeated string.
+ * @returns {string} The repeated string.e
  */
-const repeatString = () => {};
+const repeatString = (str, times) => {
+  let newString = '';
+  for (let i= 0; i < times ; i++) {
+    newString += str;
+  }
+  return newString;
+};
 
 describe('repeatString: repeats a string a specific number of times', () => {
   it('repeats a string 0 times', () => {
