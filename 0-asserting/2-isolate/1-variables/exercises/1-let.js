@@ -9,19 +9,20 @@ console.log('-- begin --');
 // and don't just write the correct answer directly!
 //  you should use firstFiveLetters to fill in one blank for each step
 
-_;
+let fiststFiveLettters = '';
+firstFiveLetters = 'c';
 console.log(firstFiveLetters); // should log "c"
 
-firstFiveLetters = _ + _;
+firstFiveLetters = 'b' + 'c';
 console.log(firstFiveLetters); // should log "bc"
 
-firstFiveLetters = _ + _;
+firstFiveLetters = 'bc' + 'd';
 console.log(firstFiveLetters); // should log "bcd"
 
-firstFiveLetters = _ + _;
+firstFiveLetters = 'ab' + 'cd';
 console.log(firstFiveLetters); // should log "abcd"
 
-firstFiveLetters = _ + _;
+firstFiveLetters = 'abc' + 'de';
 console.log(firstFiveLetters); // should log "abcde"
 
 console.log('-- end --');

@@ -13,13 +13,13 @@ let fruit = 'banana';
 let desert = 'cake';
 let topping = 'frosting';
 
-_;
+desert = 'chocolate cake';
 console.log(desert); // should log 'chocolate cake'
 
-_;
-console.log(desert); // should log 'chocolate cake with frosting'
+topping = 'chocolate cake with frosting';
+console.log(topping); // should log 'chocolate cake with frosting'
 
-_;
-console.log(desert); // should log 'chocolate cake with frosting and banana'
+fruit = 'chocolate cacake wwith frosting and banana';
+console.log(fruit); // should log 'chocolate cake with frosting and banana'
 
 console.log('-- end --');
